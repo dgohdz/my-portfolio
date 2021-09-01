@@ -1,6 +1,7 @@
 .NavbarItems {
     display: flex;
     justify-content: center;
+    /* background-color: #252128; */
 }
 
 .navbar-logo {

@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Resume from './pages/Resume'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './sections/Home';
+import Resume from './sections/Resume';
+import Projects from './sections/Projects';
+import Contact from './sections/Contact';
 import NavBar from './components/NavBar/Navbar';
 
 export default class App extends Component {
@@ -13,10 +14,11 @@ export default class App extends Component {
       <div className="App">
       <Header/>
       <NavBar/>
-      <Footer/>
+      <Home/>
       <Resume/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
     )
   }
