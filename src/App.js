@@ -6,7 +6,7 @@ import Home from './sections/Home';
 import Resume from './sections/Resume';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
-import NavBar from './components/NavBar/Navbar';
+import NavBar from './components/Navbar/Navbar';
 
 export default class App extends Component {
   render() {
