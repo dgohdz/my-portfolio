@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/Navbar';
 
 export default class App extends Component {
   render() {
