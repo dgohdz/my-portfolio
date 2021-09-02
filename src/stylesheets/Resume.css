@@ -1,7 +1,21 @@
-.Resume {
+/* .Resume {
+    display: flex;
+
+} */
+
+.Education {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0px 300px 20px;
+}
 
+.Experience {
+    display: flex;
+    flex-direction: column;
+    margin: -160px 1100px 20px;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: column;
 }
