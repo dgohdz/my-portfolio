@@ -1,8 +1,15 @@
 .NavbarItems {
     display: flex;
-    justify-content: center;
-    /* background-color: #252128; */
-}
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+  }
+  
+  .NavbarItems:medium {
+    background-color: white;
+  }
 
 .navbar-logo {
     justify-self: start;

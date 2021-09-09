@@ -1,3 +1,13 @@
 .App {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App:tiny {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.App:medium {
+  padding-right: 81px;
+  padding-left: 81px;
 }
