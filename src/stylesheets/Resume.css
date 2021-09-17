@@ -15,7 +15,10 @@
     margin-left: 500px;
 }
 
-.skills {
-    position: relative;
-    margin-top: 500px;
+.resume-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -200px auto;
 }
