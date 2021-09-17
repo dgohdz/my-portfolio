@@ -1,21 +1,21 @@
-/* .Resume {
+.resume {
     display: flex;
-
-} */
-
-.Education {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 300px 20px;
+    flex-direction:row;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 100vh;
 }
 
-.Experience {
-    display: flex;
-    flex-direction: column;
-    margin: -160px 1100px 20px;
+.education {
+    position: relative;
+    margin-left: 500px;
+}
+.experience {
+    position: relative;
+    margin-left: 500px;
 }
 
-.Skills {
-    display: flex;
-    flex-direction: column;
+.skills {
+    position: relative;
+    margin-top: 500px;
 }
