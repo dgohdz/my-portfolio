@@ -1,24 +1,25 @@
-.resume {
+.resume-container {
     display: flex;
-    flex-direction:row;
-    align-items: center;
-    /* justify-content: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     min-height: 100vh;
 }
 
-.education {
-    position: relative;
-    margin-left: 500px;
-}
-.experience {
-    position: relative;
-    margin-left: 500px;
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .resume-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: -200px auto;
+    align-self: center;
+    margin-top: -800px;
 }
+
+/* .education {
+} */
+/* .experience {
+    position: relative;
+    margin-left: 500px;
+}*/

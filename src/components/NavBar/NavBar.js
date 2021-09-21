@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">Diego Hernandez</h1>
+                <h1 className="navbar-logo">DH</h1>
                 <ul className="nav-menu">
                     {MenuItems.map((item, index) => {
                         return (

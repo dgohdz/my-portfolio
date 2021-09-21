@@ -1,16 +1,31 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-top: auto;
   min-height: 100vh;
+  max-width: 900px;
+  margin: auto;
 }
 
 .name {
-  position: relative;
+  font-size: 20px;
+  color:slategray;
 }
 
 .job-title {
-  
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.greeting-heading {
+    font-size: 64px;
+  }
+
+.scroll-button {
+  align-self: center;
+  margin-top: 70px;
+  border-radius: 100px;
+  color: white;
+  background-color: black;
+  border: 0px;
 }
