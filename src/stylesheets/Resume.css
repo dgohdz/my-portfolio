@@ -1,25 +1,26 @@
 .resume-container {
     display: flex;
-    flex-direction: row;
+    min-height: 100vh;
     flex-wrap: wrap;
     justify-content: space-around;
-    min-height: 100vh;
+    align-content: center;
+}
+
+.skills {
+    align-items: center;
+}
+
+.experience {
+    align-items: center;
 }
 
 .button-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.resume-button {
-    align-self: center;
-    margin-top: -800px;
+.download-resume {
+    align-items: center;
+    margin: -30px auto 100px auto;
 }
-
-/* .education {
-} */
-/* .experience {
-    position: relative;
-    margin-left: 500px;
-}*/

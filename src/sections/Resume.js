@@ -6,10 +6,16 @@ export default class Resume extends Component {
     return (
       <>
       <div className="resume-container">
-        <div className="education">
+        <div className="skills">
           <h1>Skills</h1>
           <h3>What I know</h3>
-          <p>HTML</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>Ruby on Rails</li>
+          </ul>
         </div>
         <div className="experience">
           <h1>Experience</h1>
@@ -18,7 +24,7 @@ export default class Resume extends Component {
         </div>
       </div>
       <div className="button-container">
-      <button className="resume-button">Download Resume</button>
+      <button className="download-resume">Download Resume</button>
       </div>
       </>
     )
