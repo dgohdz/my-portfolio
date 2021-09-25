@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.skills-list {
+    list-style: none;
+}
+
 .experience {
     align-items: center;
 }
@@ -22,5 +26,11 @@
 
 .download-resume {
     align-items: center;
-    margin: -30px auto 100px auto;
+    border-radius: 100px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background-color: black;
+    border: 0px;
+    margin: -70px auto 100px auto;
+    cursor: pointer;
 }
