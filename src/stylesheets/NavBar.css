@@ -1,19 +1,26 @@
 .NavbarItems {
     display: flex;
-    justify-content: center;
-    /* background-color: #252128; */
-}
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin-right: 50px;
+    text-decoration: none;
+    font-style: normal;
+  }
+
 
 .navbar-logo {
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 50px;
     cursor: pointer;
 }
 
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    grid-gap: 30px;
     list-style: none;
     text-align: center;
     width: 70vw;

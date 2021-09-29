@@ -1,7 +1,32 @@
-.HomeTitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 950px;
+  margin: -50px auto auto auto;
+}
+
+.name {
+  font-size: 20px;
+  color:slategray;
+}
+
+.job-title {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.greeting-heading {
+    font-size: 64px;
+  }
+
+.scroll-button {
+  align-self: center;
+  margin-top: 70px;
+  border-radius: 100px;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  background-color: black;
+  border: 0px;
 }

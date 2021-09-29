@@ -6,14 +6,14 @@ import Home from './sections/Home';
 import Resume from './sections/Resume';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
-import NavBar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar';
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
       <Header/>
-      <NavBar/>
+      <Navbar/>
       <Home/>
       <Resume/>
       <Projects/>
