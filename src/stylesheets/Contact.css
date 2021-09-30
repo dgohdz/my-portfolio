@@ -1,0 +1,50 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+
+}
+
+.headline {
+    align-items: center;
+    margin: auto;
+}
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: -30px auto 100px auto;
+}
+
+.name-input {
+    border-radius: 5px;
+    border-style: none;
+}
+
+.email-input {
+    border-radius: 5px;
+    border-style: none;
+}
+
+.message-input {
+    height: 200px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-send {
+    background-color: black;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    width: 50%;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+
