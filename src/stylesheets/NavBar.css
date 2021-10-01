@@ -1,14 +1,11 @@
+
 .NavbarItems {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
-    margin-right: 50px;
     text-decoration: none;
     font-style: normal;
-    padding-top: 20px;
+    position: fixed;
+    padding-top: 30px;
+    justify-content: center;
   }
 
 
@@ -21,10 +18,10 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 30px;
+    grid-gap: 50px;
     list-style: none;
-    text-align: center;
-    width: 70vw;
+    width: 90vw;
     justify-content: end;
+    cursor: pointer;
 }
 
