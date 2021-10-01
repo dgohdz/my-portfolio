@@ -8,6 +8,7 @@
 
 .skills {
     align-items: center;
+    margin: -100px auto auto auto;
 }
 
 .skills-list {
@@ -16,11 +17,12 @@
 
 .experience {
     align-items: center;
+    margin: -100px auto auto auto;
+
 }
 
 .button-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -31,6 +33,6 @@
     color: white;
     background-color: black;
     border: 0px;
-    margin: -70px auto 100px auto;
+    margin: -150px auto 100px auto;
     cursor: pointer;
 }

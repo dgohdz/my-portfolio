@@ -5,7 +5,7 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-      <div className= "resume-container">
+      <div className= "resume-container" id="Resume">
         <div className="skills">
           <h1>Skills</h1>
           <h2>What I know</h2>

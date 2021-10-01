@@ -6,13 +6,11 @@ export default class Projects extends Component {
     render() {
         return (
             <>
-            <div className= "image-container">
+            <section className="project-section" id="Projects">
                 <img src= {Blackout} alt="" className="blackout-png"/>
-            </div>
-            <div className= "description">
-                <h2>Blackout Project</h2>
-                <p>This is an application currently under construction.</p>
-            </div>
+                <h1 className="blackout-heading">Blackout Project</h1>
+                <p className="paragraph">This is an application currently under construction.</p>
+            </section>
             </>
         )
     }

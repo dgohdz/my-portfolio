@@ -18,11 +18,11 @@ export default function Contact () {
   };
 
   return (
-    <div className="form-container">
-    <div className="headline">
-    <h1>Contact Me</h1>
-    <p>Send me a direct email by filling out the form below!</p>
-    </div>
+    <div className="form-container" id="Contact">
+    
+    <h1 className="headline">Contact Me</h1>
+    <p className="paragraph">Send me a direct email by filling out the form below!</p>
+    
     <form onSubmit={sendEmail}>
     <div className="form-items">
       <label>Name</label>
