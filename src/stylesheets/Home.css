@@ -21,12 +21,34 @@
     font-size: 64px;
   }
 
-.scroll-button {
-  align-self: center;
-  margin-top: 70px;
-  border-radius: 5px;
-  padding: 15px 20px 15px 20px;
-  color: white;
-  background-color: black;
-  border: 0px;
+.home-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -150px;
 }
+
+.github {
+  width: 100px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.linkedin {
+  width: 100px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.resume-button {
+  border-radius: 100px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+
+
+

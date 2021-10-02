@@ -1,13 +1,21 @@
 .project-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
     padding-bottom: 100px;
     padding-top: 100px;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
 .blackout-png {
-    align-items: center;
+align-self: center;
+max-width: 100%;
 }
 
 .blackout-heading {
@@ -17,4 +25,5 @@
 
 .paragraph {
     align-self: center;
+    padding-bottom: 100px;
 }

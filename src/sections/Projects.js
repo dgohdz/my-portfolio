@@ -7,7 +7,9 @@ export default class Projects extends Component {
         return (
             <>
             <section className="project-section" id="Projects">
-                <img src= {Blackout} alt="" className="blackout-png"/>
+            <div className="image-container">
+            <a href="https://infinite-taiga-38805.herokuapp.com/" target="_blank" rel="noreferrer"><img src= {Blackout} alt="" className="blackout-png"/></a>
+            </div>
                 <h1 className="blackout-heading">Blackout Project</h1>
                 <p className="paragraph">This is an application currently under construction.</p>
             </section>

@@ -32,8 +32,7 @@ export default class Resume extends Component {
           </ul>
       </div>
       <div className="button-container">
-      <button className="download-resume">Download Resume</button>
-      </div>
+      <a href="https://drive.google.com/file/d/13203KjaitOUzQSXxXui8HqRx1kIv_g5E/view?usp=sharing" target="_blank" rel="noreferrer"><button className="resume-button">Resume</button></a>      </div>
       </section>
       </>
     )
