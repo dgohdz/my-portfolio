@@ -10,6 +10,7 @@
 .name {
   font-size: 20px;
   color:slategray;
+  margin-top: -100px
 }
 
 .job-title {
@@ -21,10 +22,10 @@
     font-size: 64px;
   }
 
-.home-button-container {
+.social-button-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: -150px;
+  margin-top: -250px;
 }
 
 .github {
