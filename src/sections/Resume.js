@@ -5,30 +5,36 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-      <div className= "resume-container" id="Resume">
-        <div className="skills">
-          <h1>Skills</h1>
-          <h2>What I know</h2>
-          <ul className="skills-list">
+      <section className="resume-section" id="Resume">
+
+          <h1 className="skills-heading">Skills</h1>
+          <h4 className="skills-subheading">What I know</h4>
+      <div className="list-container">
+          <ul className="skills-grid">
             <li>HTML</li>
             <li>CSS/SCSS</li>
             <li>Javascript</li>
             <li>React.js</li>
-            <li>Ruby on Rails</li>
+            <li>VS Code</li>
+            <li>Git</li>
           </ul>
-        </div>
-        <div className="experience">
-          <h1>Experience</h1>
-          <h2>Where I've worked</h2>
-          <h3>US Army</h3>
-          <h3>Real Estate Agent</h3>
-          <h3>Notch8 Intern</h3>
-
-        </div>
+      </div>
+      <div className="experience-container">
+          <h1 className="experience-heading">Experience</h1>
+          <h4 className="experience-subheading">Where I've worked</h4>
+      </div>
+      <div className="list-container">
+          <ul className="experience-grid">
+            <li>US Army</li>
+            <li>Real Estate Agent</li>
+            <li>Notch8 Software Development Intern</li>
+            <li>LEARN Academy Teacher's Assistant</li>
+          </ul>
       </div>
       <div className="button-container">
-      <button className="download-resume" onClick="https://drive.google.com/file/d/13203KjaitOUzQSXxXui8HqRx1kIv_g5E/view?usp=sharing">Download Resume</button>
+      <button className="download-resume">Download Resume</button>
       </div>
+      </section>
       </>
     )
   }

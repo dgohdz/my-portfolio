@@ -1,38 +1,76 @@
-.resume-container {
+.resume-section {
     display: flex;
     min-height: 100vh;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.skills {
-    align-items: center;
-    margin: -100px auto auto auto;
+.skills-heading {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 150px;
 }
 
-.skills-list {
+.skills-subheading {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 50px;
+}
+
+.skills-grid {
+    display: grid;
+    max-width: 800px;
+    text-align: center;
     list-style: none;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 500px;
+    grid-row-gap: 20px;
 }
 
-.experience {
-    align-items: center;
-    margin: -100px auto auto auto;
+.experience-container {
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
 
+.experience-heading {
+    align-self: flex-start;
+    padding-top: 50px;
+}
+
+.experience-subheading {
+    align-self: flex-start;
+    padding-bottom: 50px;
+}
+
+.experience-grid {
+    display: grid;
+    max-width: 800px;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    padding-bottom: 100px;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .download-resume {
-    align-items: center;
+    align-self: center;
     border-radius: 5px;
     padding: 15px 20px 15px 20px;
     color: white;
     background-color: black;
     border: 0px;
-    margin: -150px auto 100px auto;
     cursor: pointer;
 }
