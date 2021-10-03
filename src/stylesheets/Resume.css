@@ -3,31 +3,34 @@
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
+    padding: 100px;
 }
 
 .skills-heading {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     align-self: center;
-    padding-top: 150px;
+    /* margin: auto; */
+    padding-top: 75px;
 }
 
 .skills-subheading {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     align-self: center;
-    padding-bottom: 50px;
+    /* padding-bottom: 75px; */
 }
 
 .skills-grid {
     display: grid;
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
     list-style: none;
     margin: auto;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-column-gap: 500px;
-    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    padding: 50px;
 }
 
 .experience-container {
@@ -37,26 +40,24 @@
 }
 
 .experience-heading {
-    align-self: flex-start;
-    padding-top: 50px;
+    align-self: center;
+    /* padding-top: 75px; */
 }
 
 .experience-subheading {
-    align-self: flex-start;
-    padding-bottom: 50px;
+    align-self: center;
+    padding-bottom: 20px;
 }
 
 .experience-grid {
     display: grid;
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
     list-style: none;
-    align-items: center;
     margin: auto;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-column-gap: 100px;
-    grid-row-gap: 50px;
-    padding-bottom: 100px;
+    grid-column-gap: 110px;
+    padding: 50px;
 }
 
 .button-container {
@@ -65,7 +66,7 @@
     padding-bottom: 100px;
 }
 
-/* .download-resume {
+/* .button {
     align-self: center;
     border-radius: 5px;
     padding: 15px 20px 15px 20px;
