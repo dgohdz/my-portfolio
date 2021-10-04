@@ -1,39 +1,81 @@
 .resume-section {
-    display: flex;
     min-height: 100vh;
+}
+
+.skills-container {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding: 100px;
+    padding-top: 100px;
 }
 
 .skills-heading {
-    /* display: flex; */
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center;
-    /* margin: auto; */
-    padding-top: 75px;
 }
 
 .skills-subheading {
-    /* display: flex; */
-    /* justify-content: center; */
+    justify-content: center;
     align-self: center;
-    /* padding-bottom: 75px; */
 }
 
 .skills-grid {
     display: grid;
-    max-width: 900px;
     text-align: center;
-    list-style: none;
+    align-self: center;
     margin: auto;
+    max-width: 1200px;
+    list-style: none;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-column-gap: 30px;
-    padding: 50px;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    padding: 60px;
 }
 
+.html-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.css-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.sass-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.js-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.react-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.vscode-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.git-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+
 .experience-container {
+    display: flex;
     flex-direction: column;
     align-self: center;
     margin: auto;
