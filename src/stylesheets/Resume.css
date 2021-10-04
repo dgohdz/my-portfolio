@@ -1,38 +1,109 @@
-.resume-container {
-    display: flex;
+.resume-section {
     min-height: 100vh;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
 }
 
-.skills {
-    align-items: center;
-    margin: -100px auto auto auto;
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
 }
 
-.skills-list {
+.skills-heading {
+    justify-content: center;
+    align-self: center;
+}
+
+.skills-subheading {
+    justify-content: center;
+    align-self: center;
+}
+
+.skills-grid {
+    display: grid;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    max-width: 1200px;
     list-style: none;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    padding: 60px;
 }
 
-.experience {
-    align-items: center;
-    margin: -100px auto auto auto;
+.html-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
 
+.css-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.sass-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.js-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.react-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.vscode-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.git-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}
+
+.experience-heading {
+    align-self: center;
+    /* padding-top: 75px; */
+}
+
+.experience-subheading {
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.experience-grid {
+    display: grid;
+    max-width: 1000px;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-column-gap: 110px;
+    padding: 50px;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-}
-
-.download-resume {
-    align-items: center;
-    border-radius: 5px;
-    padding: 15px 20px 15px 20px;
-    color: white;
-    background-color: black;
-    border: 0px;
-    margin: -150px auto 100px auto;
-    cursor: pointer;
+    padding-bottom: 100px;
 }

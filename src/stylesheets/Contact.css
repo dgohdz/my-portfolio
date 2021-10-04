@@ -2,19 +2,15 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 125px;
 }
 
 .headline {
     align-self: center;
-    margin: auto;
-    padding-top: 20px;
 }
 
 .paragraph {
     align-self: center;
-    margin: auto;
-    padding-top: 20px;
 }
 
 .form-items {
@@ -22,8 +18,6 @@
     flex-direction: column;
     max-width: 50%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .name-input {
@@ -43,14 +37,14 @@
 }
 
 .button-send {
-    background-color: black;
-    padding: 15px 20px 15px 20px;
-    color: white;
+    background-color: #f7f7f7;
+    padding: 5px 20px 5px 20px;
+    color: black;
     width: 25%;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 5px;
-    border-style: none;
+    font-weight: 900;
 }
 
 

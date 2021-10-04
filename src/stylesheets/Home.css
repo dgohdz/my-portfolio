@@ -10,6 +10,7 @@
 .name {
   font-size: 20px;
   color:slategray;
+  margin-top: -100px
 }
 
 .job-title {
@@ -21,12 +22,27 @@
     font-size: 64px;
   }
 
-.scroll-button {
-  align-self: center;
-  margin-top: 70px;
-  border-radius: 5px;
-  padding: 15px 20px 15px 20px;
-  color: white;
-  background-color: black;
-  border: 0px;
+.social-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -250px;
+  padding-bottom: 100px;
 }
+
+.github {
+  width: 100px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.linkedin {
+  width: 100px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+}
+
+
+
+
