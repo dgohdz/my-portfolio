@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../stylesheets/Navbar.css';
+import '../stylesheets/NavBar.css';
 import diego from "../assets/images/diego-image.png"
 import { Link } from "react-scroll"
 
