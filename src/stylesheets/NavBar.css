@@ -4,22 +4,26 @@
     text-decoration: none;
     font-style: normal;
     position: fixed;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     justify-content: center;
   }
 
-.navbar-logo {
+.diego-image {
     justify-self: start;
-    margin-left: 50px;
+    margin: 15px auto auto 50px;
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 50px;
+    grid-gap: 25px;
     list-style: none;
     width: 90vw;
     justify-content: end;
     cursor: pointer;
+    margin:auto;
 }
 

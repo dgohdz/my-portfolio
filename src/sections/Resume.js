@@ -15,7 +15,7 @@ export default class Resume extends Component {
       <section className="resume-section" id="Resume">
           <div className="skills-container">
           <h1 className="skills-heading">Skills</h1>
-          <h4 className="skills-subheading">What I know</h4>
+          <h5 className="skills-subheading">What I know</h5>
           <ul className="skills-grid">
             <li>
               <div><img src={HTML} alt="html-icon" className="html-icon"/>
@@ -57,7 +57,7 @@ export default class Resume extends Component {
 
       <div className="experience-container">
           <h1 className="experience-heading">Experience</h1>
-          <h4 className="experience-subheading">Where I've worked</h4>
+          <h5 className="experience-subheading">Where I've worked</h5>
       </div>
       <div className="list-container">
           <ul className="experience-grid">

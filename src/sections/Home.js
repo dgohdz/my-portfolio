@@ -20,7 +20,6 @@ export default class Home extends Component {
                             <a href="https://github.com/dgohdz" target="_blank" rel="noreferrer"><img src={github}
                                     alt="github icon"
                                     className="github"/></a>
-                            <a href="https://drive.google.com/file/d/13203KjaitOUzQSXxXui8HqRx1kIv_g5E/view?usp=sharing" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>
                             <a href="https://www.linkedin.com/in/dgohdz/" target="_blank" rel="noreferrer"><img src={linkedin}
                                     className="linkedin"
                                     alt="linkedin icon"/></a>
