@@ -36,3 +36,12 @@ max-width: 100%;
     font-size: 20px;
     text-align: center;
 }
+
+
+
+@media screen and (max-width:425px) {
+    .description-paragraph {
+        font-size: 15px;
+        padding: 15px;
+    }
+}
