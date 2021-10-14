@@ -1,6 +1,4 @@
 .project-section {
-    display: flex;
-    justify-content:center;
     min-height: 100vh;
 }
 
@@ -9,7 +7,17 @@
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    padding-top: 75px;
+    padding-top: 100px;
+}
+
+@media screen and (max-width:320px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 150px;
+    }
 }
 
 .blackout-png {

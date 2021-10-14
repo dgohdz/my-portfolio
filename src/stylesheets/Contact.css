@@ -5,12 +5,29 @@
     padding-top: 125px;
 }
 
+@media screen and (max-width:320px) {
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding-top: 150px;
+        }
+}
+
 .headline {
     align-self: center;
 }
 
 .paragraph {
     align-self: center;
+}
+
+@media screen and (max-width:320px) {
+    .paragraph {
+        font-size: 15px;
+        max-width: fit-content;
+        max-width: 250px;
+    }    
 }
 
 .form-items {
@@ -34,6 +51,12 @@
     height: 200px;
     border-radius: 5px;
     border-style: none;
+}
+
+@media screen and (max-width:320px) {
+    .message-input {
+        height: 100px;
+    }
 }
 
 .button-send {

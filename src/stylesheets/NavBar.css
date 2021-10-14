@@ -4,8 +4,22 @@
     text-decoration: none;
     font-style: normal;
     padding: 20px;
+    margin: auto;
     position: fixed;
     justify-content: center;
+  }
+
+  @media screen and (max-width:320px) {
+    .NavbarItems {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 15px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin: auto;
+    }
   }
 
 .diego-image {
@@ -25,8 +39,8 @@
     margin:auto;
 }
 
-/* @media screen and (max-width:300px) {
+@media screen and (max-width:320px) {
     .nav-menu {
-        max-width: fit-content;
+        font-size: 12px;
     }
-  } */
+}

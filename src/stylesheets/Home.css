@@ -1,7 +1,6 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   min-height: 100vh;
   max-width: 950px;
@@ -11,8 +10,8 @@
 @media screen and (max-width:320px) {
   .home-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 20px;
     margin: auto;
   }
 }
@@ -76,7 +75,7 @@
 
 .social-button-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: auto;
   /* margin-top: -250px;
   padding-bottom: 100px; */
@@ -85,10 +84,7 @@
 @media screen and (max-width:320px) {
   .social-button-container {
     display: flex;
-    justify-content: space-evenly;
-    /* margin-top: -250px;
-    padding-bottom: 50px;
-    padding-top: 30px; */
+    justify-content: center;
     margin: auto;
   }
 }
