@@ -5,7 +5,7 @@
     padding-top: 125px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
         .form-container {
             display: flex;
             flex-direction: column;
@@ -22,11 +22,11 @@
     align-self: center;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .paragraph {
         font-size: 15px;
         max-width: fit-content;
-        max-width: 250px;
+        max-width: 200px;
     }    
 }
 
@@ -53,7 +53,7 @@
     border-style: none;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .message-input {
         height: 100px;
     }
@@ -70,7 +70,7 @@
     font-weight: 900;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
     .button-send {
         background-color: #f7f7f7;
         padding: 1px 20px 1px 20px;

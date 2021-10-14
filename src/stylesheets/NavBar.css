@@ -22,6 +22,35 @@
     }
   }
 
+  @media screen and (max-width:375px) {
+    .NavbarItems {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 15px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin: auto;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .NavbarItems {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 15px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+  }
+
 .diego-image {
     width: 75px;
     height: auto;
@@ -41,6 +70,42 @@
 
 @media screen and (max-width:320px) {
     .nav-menu {
+        display: grid;
         font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nav-menu {
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .nav-menu {
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 0%;
     }
 }
