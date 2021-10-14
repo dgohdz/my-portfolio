@@ -47,6 +47,20 @@
     font-weight: 900;
 }
 
+@media screen and (max-width:320px) {
+    .button-send {
+        background-color: #f7f7f7;
+        padding: 1px 20px 1px 20px;
+        color: black;
+        width: 50%;
+        align-self: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-weight: 900;
+
+    }
+}
+
 @media screen and (max-width:425px) {
     .button-send {
         background-color: #f7f7f7;
