@@ -1,10 +1,29 @@
 .home-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   min-height: 100vh;
   max-width: 950px;
   margin: auto;
+}
+
+@media screen and (max-width:320px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+  }  
 }
 
 .name {
@@ -13,13 +32,46 @@
   margin-top: -100px
 }
 
+@media screen and (max-width:320px) {
+  .name {
+    font-size: 15px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .name {
+    align-items: center;
+    padding-top: 50px;
+  }
+}
+
 .job-title {
   font-size: 20px;
   margin-top: -10px;
 }
 
+@media screen and (max-width:320px) {
+  .job-title {
+    font-size: 15px;
+  }
+}
+
 .greeting-heading {
     font-size: 64px;
+  }
+
+  @media screen and (max-width:320px) {
+    .greeting-heading {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .greeting-heading {
+      font-size: 30px;
+    }
+    
   }
 
 .social-button-container {
@@ -29,11 +81,29 @@
   padding-bottom: 100px;
 }
 
+@media screen and (max-width:320px) {
+  .social-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -250px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+}
+
 .github {
   width: 100px;
   height: auto;
   padding: 25px;
   cursor: pointer;
+}
+
+@media screen and (max-width:320px) {
+  .github {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+  }
 }
 
 .linkedin {
@@ -43,6 +113,13 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:320px) {
+  .linkedin {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+  }
+}
 
 
 

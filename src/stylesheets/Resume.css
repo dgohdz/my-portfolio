@@ -23,13 +23,29 @@
     text-align: center;
     align-self: center;
     margin: auto;
-    max-width: 1200px;
     list-style: none;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-column-gap: 50px;
+    /* max-width: fit-content; */
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-column-gap: 60px;
     grid-row-gap: 10px;
     padding: 60px;
 }
+
+@media screen and (max-width:320px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        max-width: fit-content;
+
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        /* max-width: fit-content; */
+    }
+  }
+
 
 .html-icon {
     width:50%;

@@ -3,22 +3,20 @@
     display: flex;
     text-decoration: none;
     font-style: normal;
+    padding: 20px;
     position: fixed;
-    /* padding-top: 30px; */
     justify-content: center;
   }
 
 .diego-image {
-    justify-self: start;
-    margin: 15px auto auto 50px;
     width: 75px;
     height: auto;
-    border-radius: 50%;
+    margin: auto;
 }
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 25px;
     list-style: none;
     width: 90vw;
@@ -27,3 +25,8 @@
     margin:auto;
 }
 
+/* @media screen and (max-width:300px) {
+    .nav-menu {
+        max-width: fit-content;
+    }
+  } */
