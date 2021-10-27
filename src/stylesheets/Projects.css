@@ -20,6 +20,16 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 150px;
+    }
+}
+
 .blackout-png {
 align-self: center;
 max-width: 100%;
@@ -48,6 +58,13 @@ max-width: 100%;
 
 
 @media screen and (max-width:425px) {
+    .description-paragraph {
+        font-size: 15px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
     .description-paragraph {
         font-size: 15px;
         padding: 15px;

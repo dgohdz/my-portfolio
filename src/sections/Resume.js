@@ -7,6 +7,7 @@ import Javascript from "../assets/images/js-icon.png";
 import reactIcon from "../assets/images/react-icon.png";
 import vscode from "../assets/images/vscode-icon.png";
 import git from "../assets/images/git-icon.png";
+import postgresql from "../assets/images/postgresql.png"
 
 export default class Resume extends Component {
   render() {
@@ -52,6 +53,11 @@ export default class Resume extends Component {
               <p>Git</p>
               </div>
             </li>
+            <li>
+              <div><img src={postgresql} alt="postgresql-icon" className="postgresql-icon"/>
+              <p>PostgreSQL</p>
+              </div>
+            </li>
           </ul>
           </div>
 
@@ -61,14 +67,14 @@ export default class Resume extends Component {
       </div>
       <div className="list-container">
           <ul className="experience-grid">
-            <li>US Army</li>
+            <li>U.S. Army Veteran</li>
             <li>Real Estate Agent</li>
             <li>Notch8 Software Development Intern</li>
             <li>LEARN Academy Teacher's Assistant</li>
           </ul>
       </div>
       <div className="button-container">
-      <a href="https://drive.google.com/file/d/15DuchHP5suvTxuKPXrPlT64avDXmUFuN/view?usp=sharing" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>      </div>
+      <a href="https://drive.google.com/file/d/1aeFvhcHKuWKo9JSlpnMZRWNs1_FLpUQC/view?usp=sharing" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>      </div>
       </section>
       </>
     )

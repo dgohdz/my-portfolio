@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    margin: auto;
 }
 
 .skills-heading {
@@ -33,12 +34,31 @@
     }    
 }
 
+@media screen and (max-width:768px) {
+    .skills-heading {
+        font-size: 30px;
+        padding-top: 75px;
+    }    
+}
+
 .skills-subheading {
     justify-content: center;
     align-self: center;
 }
 
 @media screen and (max-width:320px) {
+    .skills-subheading {
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width:425px) {
+    .skills-subheading {
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width:768px) {
     .skills-subheading {
         font-size: 15px;
     }    
@@ -78,6 +98,13 @@
         grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
         max-width: fit-content;
         padding: 50px;    }
+  }
+
+  @media screen and (max-width:768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        max-width: fit-content;
+        padding: 25px;    }
   }
 
 
@@ -123,6 +150,12 @@
     padding-bottom: 5px;
 }
 
+.postgresql-icon {
+    width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 
 .experience-container {
     display: flex;
@@ -136,9 +169,22 @@
     /* padding-top: 75px; */
 }
 
+@media screen and (max-width:768px) {
+    .experience-heading {
+        font-size: 30px;
+        padding-top: 50px;
+    }    
+}
+
 .experience-subheading {
     align-self: center;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .experience-subheading {
+        font-size: 15px;
+    }    
 }
 
 .experience-grid {
@@ -150,6 +196,19 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-column-gap: 110px;
     padding: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .experience-grid {
+        display: grid;
+        max-width: 1000px;
+        text-align: center;
+        list-style: none;
+        margin: auto;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        grid-column-gap: 110px;
+        padding: 50px;
+    }
 }
 
 .button-container {

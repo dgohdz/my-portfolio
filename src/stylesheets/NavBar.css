@@ -51,6 +51,22 @@
     }
   }
 
+  @media screen and (max-width:768px) {
+    .NavbarItems {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 15px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin: auto;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+  }
+
 .diego-image {
     width: 75px;
     height: auto;
@@ -107,5 +123,19 @@
         cursor: pointer;
         margin:auto;
         padding: 0%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-menu {
+        display: grid;
+        font-size: 16px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        cursor: pointer;
+        margin:auto;
+        padding: 10px;
     }
 }
