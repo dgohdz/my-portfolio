@@ -9,16 +9,16 @@ export default class Header extends Component {
             <nav className="NavbarItems">
                 <img src={diego} alt="diego" className="diego-image"/>
                 <ul className="nav-menu">
-                    <li>
+                    <li className="home-link">
                         <Link to="Home">HOME</Link>
                     </li>
-                    <li>
+                    <li className="resume-link">
                         <Link to="Resume">RESUME</Link>
                     </li>
-                    <li>
+                    <li className="projects-link">
                         <Link to="Projects">PROJECTS</Link>
                     </li>
-                    <li>
+                    <li className="contact-link">
                         <Link to="Contact">CONTACT</Link>
                     </li>
                 </ul>

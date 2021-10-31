@@ -73,6 +73,10 @@
     margin: auto;
 }
 
+:root {
+    --mainColor:black;
+  }
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -84,6 +88,86 @@
     margin:auto;
 }
 
+
+.home-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .home-link:hover {
+    background-size: 4px 50px;
+    color: white;
+  }
+
+  .resume-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .resume-link:hover {
+    background-size: 4px 50px;
+    color: white;
+  }
+
+  .projects-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .projects-link:hover {
+    background-size: 4px 50px;
+    color: white;
+  }
+
+  .contact-link {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  .contact-link:hover {
+    background-size: 4px 50px;
+    color: white;
+  }
 @media screen and (max-width:320px) {
     .nav-menu {
         display: grid;
