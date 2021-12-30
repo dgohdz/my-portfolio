@@ -25,6 +25,7 @@
 
 .headline {
     align-self: center;
+    color: #2A4E7C;;
 }
 
 .paragraph {
@@ -48,18 +49,19 @@
 
 .name-input {
     border-radius: 5px;
-    border-style: none;
+    border-style: solid;
 }
 
 .email-input {
     border-radius: 5px;
-    border-style: none;
+    border-style: solid;
 }
 
 .message-input {
     height: 200px;
     border-radius: 5px;
-    border-style: none;
+    border-style: solid;
+    border-width: 2px;
 }
 
 @media screen and (max-width:425px) {
@@ -69,9 +71,9 @@
 }
 
 .button-send {
-    background-color: #f7f7f7;
+    background-color:#2A4E7C;
     padding: 5px 20px 5px 20px;
-    color: black;
+    color: white;
     width: 25%;
     align-self: center;
     margin-top: 50px;
