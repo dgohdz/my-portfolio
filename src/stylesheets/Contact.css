@@ -83,9 +83,9 @@
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #f7f7f7;
+        background-color: #2A4E7C;
         padding: 1px 20px 1px 20px;
-        color: black;
+        color: white;
         width: 50%;
         align-self: center;
         margin-top: 20px;
@@ -97,9 +97,9 @@
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #f7f7f7;
+        background-color: #2A4E7C;
         padding: 1px 20px 1px 20px;
-        color: black;
+        color: white;
         width: 50%;
         align-self: center;
         margin-top: 20px;
