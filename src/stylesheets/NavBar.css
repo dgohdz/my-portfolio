@@ -1,76 +1,50 @@
 
-.NavbarItems {
+.navbar-container {
     display: flex;
-    text-decoration: none;
-    font-style: normal;
-    padding: 20px;
-    margin: auto;
+    /* border: dotted; */
+    padding: 30px;
     position: fixed;
-    justify-content: center;
   }
 
-  @media screen and (max-width:320px) {
-    .NavbarItems {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: repeat(4, auto);
-        grid-gap: 15px;
-        list-style: none;
-        justify-content: center;
-        cursor: pointer;
-        margin: auto;
-    }
-  }
-
-  @media screen and (max-width:375px) {
-    .NavbarItems {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: repeat(4, auto);
-        grid-gap: 15px;
-        list-style: none;
-        justify-content: center;
-        cursor: pointer;
-        margin: auto;
+  @media screen and (max-width:768px) {
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      position: relative;
     }
   }
 
   @media screen and (max-width:425px) {
-    .NavbarItems {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: repeat(4, auto);
-        grid-gap: 15px;
-        list-style: none;
-        justify-content: center;
-        cursor: pointer;
-        margin: auto;
-        align-items: center;
-        align-content: center;
-        align-self: center;
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      padding: 10px;
+      position: relative;
     }
   }
 
-  @media screen and (max-width:768px) {
-    .NavbarItems {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: repeat(4, auto);
-        grid-gap: 15px;
-        list-style: none;
-        justify-content: center;
-        cursor: pointer;
-        margin: auto;
-        align-items: center;
-        align-content: center;
-        align-self: center;
+  @media screen and (max-width:320px) {
+    .navbar-container {
+      flex-direction: column;
+      margin: auto;
+      padding: 10px;
+      position: relative;
     }
   }
 
 .diego-image {
-    width: 75px;
+    width: 120px;
+    /* border: dotted; */
     height: auto;
+    padding: 20px;
     margin: auto;
+}
+
+@media screen and (max-width:320px) {
+  .diego-image {
+    border: dotted;
+    margin: auto;
+  }
 }
 
 :root {
@@ -79,13 +53,29 @@
 
 .nav-menu {
     display: grid;
+    /* border: dotted; */
     grid-template-columns: repeat(4, auto);
     grid-gap: 25px;
     list-style: none;
-    width: 90vw;
+    min-width: 90vw;
     justify-content: end;
     cursor: pointer;
-    margin:auto;
+    padding: 20px;
+    margin: auto;
+}
+
+@media screen and (max-width:1440px) {
+  .nav-menu {
+    min-width: 85vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .nav-menu {
+    margin: auto;
+    min-width: 80vw;
+  }
 }
 
 

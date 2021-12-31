@@ -9,14 +9,14 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                <section id="Home">
+                <section>
                     <div className='home-container'>
-                        <h1 className='name'>Diego Hernandez</h1>
+                        <h1 className='name-title'>Diego Hernandez</h1>
                         <p className='job-title'>Full-stack Developer</p>
                         <h1 className='greeting-heading'>Hello! I'm a creative full-stack developer looking forward to working with you.</h1>
                     </div>
-                    <div className="social-button-container">
-                        <ul>
+                    <div className = 'social-button-container'>
+                    <ul>
                             <a href="https://github.com/dgohdz" target="_blank" rel="noreferrer"><img src={github}
                                     alt="github icon"
                                     className="github"/></a>

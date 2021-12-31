@@ -6,8 +6,9 @@ import { Link } from "react-scroll"
 export default class Header extends Component {
     render() {
         return (
-            <nav className="NavbarItems">
-                <img src={diego} alt="diego" className="diego-image"/>
+            <section id="Home">
+            <nav className="navbar-container">
+            <img src={diego} alt="diego" className="diego-image"/>
                 <ul className="nav-menu">
                     <li className="home-link">
                         <Link to="Home">HOME</Link>
@@ -23,6 +24,7 @@ export default class Header extends Component {
                     </li>
                 </ul>
             </nav>
+            </section>
         )
     }
 }
