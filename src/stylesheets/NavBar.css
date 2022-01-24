@@ -59,7 +59,6 @@
     list-style: none;
     min-width: 90vw;
     justify-content: end;
-    cursor: pointer;
     padding: 20px;
     margin: auto;
 }
@@ -97,6 +96,7 @@
   .home-link:hover {
     background-size: 4px 50px;
     color: white;
+    cursor: pointer;
   }
 
   .resume-link {
@@ -117,6 +117,7 @@
   .resume-link:hover {
     background-size: 4px 50px;
     color: white;
+    cursor: pointer;
   }
 
   .projects-link {
@@ -137,6 +138,7 @@
   .projects-link:hover {
     background-size: 4px 50px;
     color: white;
+    cursor: pointer;
   }
 
   .contact-link {
@@ -157,6 +159,7 @@
   .contact-link:hover {
     background-size: 4px 50px;
     color: white;
+    cursor: pointer;
   }
 @media screen and (max-width:320px) {
     .nav-menu {
