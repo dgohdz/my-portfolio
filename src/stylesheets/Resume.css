@@ -115,8 +115,20 @@
     padding-bottom: 5px;
 }
 
+.html-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 .css-icon {
     width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.css-icon:hover {
+    width:60%;
     height: auto;
     padding-bottom: 5px;
 }
@@ -127,8 +139,20 @@
     padding-bottom: 5px;
 }
 
+.sass-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 .js-icon {
     width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.js-icon:hover {
+    width:60%;
     height: auto;
     padding-bottom: 5px;
 }
@@ -139,8 +163,20 @@
     padding-bottom: 5px;
 }
 
+.react-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 .vscode-icon {
     width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.vscode-icon:hover {
+    width:60%;
     height: auto;
     padding-bottom: 5px;
 }
@@ -151,8 +187,20 @@
     padding-bottom: 5px;
 }
 
+.git-icon:hover {
+    width:60%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
 .postgresql-icon {
     width:50%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.postgresql-icon:hover {
+    width:60%;
     height: auto;
     padding-bottom: 5px;
 }
