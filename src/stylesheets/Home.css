@@ -158,6 +158,14 @@
   margin: auto;
 }
 
+.github:hover {
+  width: 125px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+  margin: auto;
+}
+
 @media screen and (max-width:320px) {
   .github {
     width: 90px;
@@ -188,8 +196,14 @@
   padding: 25px;
   cursor: pointer;
   margin: auto;
-  /* margin-top: -350px; */
+}
 
+.linkedin:hover {
+  width: 125px;
+  height: auto;
+  padding: 25px;
+  cursor: pointer;
+  margin: auto;
 }
 
 @media screen and (max-width:320px) {
