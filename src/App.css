@@ -12,3 +12,7 @@
     cursor: pointer;
     font-weight: 900;
   }
+
+  .button:hover {
+    background-color: #3967a2;
+}

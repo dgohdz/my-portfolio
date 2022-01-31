@@ -81,6 +81,10 @@
     font-weight: 900;
 }
 
+.button-send:hover {
+    background-color: #3967a2;
+}
+
 @media screen and (max-width:425px) {
     .button-send {
         background-color: #2A4E7C;
