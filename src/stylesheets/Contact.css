@@ -73,8 +73,9 @@
 .button-send {
     background-color:#2A4E7C;
     padding: 5px 20px 5px 20px;
+    height: auto;
     color: white;
-    width: 25%;
+    width: 20%;
     align-self: center;
     margin-top: 50px;
     border-radius: 5px;

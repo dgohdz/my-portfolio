@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import '../stylesheets/Contact.css'
-
+// import Modal from '../components/Modal';
 
 export default function Contact () {
 
@@ -31,7 +31,7 @@ export default function Contact () {
       <input type="email" name="email" className="email-input"/>
       <label>Message</label>
       <textarea name="message" className="message-input"/>
-      <input type="submit" value="Send" className="button-send"/>
+      <button type="submit" value="Send" className="button-send">Send</button>
     </div>
     </form>
     </div>
