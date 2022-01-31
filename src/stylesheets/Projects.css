@@ -2,7 +2,7 @@
     min-height: 100vh;
 }
 
-.image-container {
+.project-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -10,8 +10,9 @@
     padding-top: 150px;
 }
 
+
 @media screen and (max-width:425px) {
-    .image-container {
+    .project-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -21,7 +22,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .image-container {
+    .project-container {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -30,9 +31,15 @@
     }
 }
 
+
 .blackout-png {
 align-self: center;
 max-width: 100%;
+}
+
+.blackout-png:hover {
+    background-color: black;
+    opacity: 0.9;
 }
 
 .blackout-heading {
