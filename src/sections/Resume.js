@@ -74,7 +74,7 @@ export default class Resume extends Component {
           </ul>
       </div>
       <div className="button-container">
-      <a href="https://www.dropbox.com/s/qzl5ohyz2evyurp/Diego%20Hernandez%20Support%20Engineer%20Resume.pdf?dl=0" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>
+      <a href="https://www.dropbox.com/s/6ni92aoglcrks34/Diego%20Hernandez%20Support%20Engineer%20Resume.pdf?dl=0" target="_blank" rel="noreferrer"><button className="button">Resume</button></a>
       </div>
       </section>
       </>
