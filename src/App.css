@@ -1,12 +1,12 @@
 .App {
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
-    color: #333;
+    background-color: #1D2120;
+    color: #F0F0F0;
 }
 
 .button {
     border-radius: 5px;
-    background-color: #2A4E7C;
+    background-color: #534334;
     color: white;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
@@ -14,5 +14,5 @@
   }
 
   .button:hover {
-    background-color: #3967a2;
+    background-color: #66543E;
 }

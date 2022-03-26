@@ -48,7 +48,7 @@
 }
 
 :root {
-    --mainColor:#2A4E7C;;
+    --mainColor:#534334;;
   }
 
 .nav-menu {
@@ -88,7 +88,7 @@
     background-repeat: repeat-x;
     background-size: 4px 4px;
     padding: 2px;
-    color: #000;
+    color: #F0F0F0;
     text-decoration: none;
     transition: background-size .2s;
   }
@@ -109,7 +109,7 @@
     background-repeat: repeat-x;
     background-size: 4px 4px;
     padding: 2px;
-    color: #000;
+    color: #F0F0F0;
     text-decoration: none;
     transition: background-size .2s;
   }
@@ -130,7 +130,7 @@
     background-repeat: repeat-x;
     background-size: 4px 4px;
     padding: 2px;
-    color: #000;
+    color: #F0F0F0;
     text-decoration: none;
     transition: background-size .2s;
   }
@@ -151,7 +151,7 @@
     background-repeat: repeat-x;
     background-size: 4px 4px;
     padding: 2px;
-    color: #000;
+    color: #F0F0F0;
     text-decoration: none;
     transition: background-size .2s;
   }

@@ -12,7 +12,7 @@
 .skills-heading {
     justify-content: center;
     align-self: center;
-    color: #2A4E7C;;
+    color: #F0F0F0;
 }
 
 @media screen and (max-width:320px) {
@@ -215,7 +215,7 @@
 
 .experience-heading {
     align-self: center;
-    color: #2A4E7C;;
+    color: #F0F0F0;
     /* padding-top: 75px; */
 }
 

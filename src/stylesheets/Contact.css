@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 125px;
+    padding-top: 150px;
 }
 
 @media screen and (max-width:425px) {
@@ -25,7 +25,7 @@
 
 .headline {
     align-self: center;
-    color: #2A4E7C;;
+    color: #F0F0F0;
 }
 
 .paragraph {
@@ -43,7 +43,7 @@
 .form-items {
     display: flex;
     flex-direction: column;
-    max-width: 75%;
+    max-width: 45%;
     margin: auto;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .message-input {
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
     border-style: solid;
     border-width: 2px;
@@ -71,7 +71,7 @@
 }
 
 .button-send {
-    background-color:#2A4E7C;
+    background-color:#534334;
     padding: 5px 20px 5px 20px;
     height: auto;
     color: white;
@@ -83,12 +83,12 @@
 }
 
 .button-send:hover {
-    background-color: #3967a2;
+    background-color: #66543E;
 }
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #2A4E7C;
+        background-color: #534334;
         padding: 1px 20px 1px 20px;
         color: white;
         width: 50%;
@@ -102,7 +102,7 @@
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #2A4E7C;
+        background-color: #534334;
         padding: 1px 20px 1px 20px;
         color: white;
         width: 50%;
