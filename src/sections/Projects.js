@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-import Blackout from "../assets/images/blackout-image.png"
+import Cocky from "../assets/images/cocky-cocktails-image.jpg"
 import '../stylesheets/Projects.css'
 
 export default class Projects extends Component {
     render() {
         return (
             <>
-            <section className="project-section" id="Projects">
+            <section id="Projects">
             <div className="project-container">
-            <a href="https://infinite-taiga-38805.herokuapp.com/" target="_blank" rel="noreferrer"><img src= {Blackout} alt="" className="blackout-png"/></a>
-                <h1 className="blackout-heading">Blackout Project</h1>
+            <a href="http://www.cockycocktails.diegohernandez.io/" target="_blank" rel="noreferrer"><img src= {Cocky} alt="" className="cocky-cocktails-image"/></a>
+                <h1 className="cocky-cocktails-heading">Cocky Cocktails Project</h1>
                 <p className="instruction-paragraph">Click on the image to open the app.</p>
-                <p className="description-paragraph">This is an online application currently being worked on by myself and two other colleagues. It contains a list of 500 cocktails from an API of which you can look at their ingredients and instructions on how to prepare them. If you create an account, you have the option to save them in your favorites list as well. </p>
+                <p className="description-paragraph">This is an online application created using React.js that uses an external API and allows you to search for a specific cocktail base on their name or ingredient. </p>
             </div>
             </section>
             </>

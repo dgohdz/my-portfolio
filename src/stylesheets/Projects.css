@@ -1,13 +1,13 @@
-.project-section {
+/* .project-section {
     min-height: 100vh;
-}
+} */
 
 .project-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
     padding-top: 150px;
+    align-items: center;
 }
 
 
@@ -32,17 +32,18 @@
 }
 
 
-.blackout-png {
-align-self: center;
-max-width: 100%;
+.cocky-cocktails-image {
+    width: auto;
+    height: 20rem;
+    border-radius: 20px;
 }
 
-.blackout-png:hover {
-    background-color: black;
+.cocky-cocktails-image:hover {
+    background-color: white;
     opacity: 0.9;
 }
 
-.blackout-heading {
+.cocky-cocktails-heading {
     align-self: center;
     margin: auto;
     padding-top: 50px;
