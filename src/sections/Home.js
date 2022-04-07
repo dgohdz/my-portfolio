@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import '../stylesheets/Home.css'
 import '../App.css'
-import github from "../assets/images/github.png"
-import linkedin from "../assets/images/linkedin.png"
+import github from "../assets/images/github-icon.png"
+import linkedin from "../assets/images/linkedin-icon.png"
 
 
 export default class Home extends Component {

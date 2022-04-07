@@ -150,24 +150,27 @@
 }
 
 .github {
-  width: 100px;
+  width: 75px;
   height: auto;
-  padding: 25px;
   cursor: pointer;
   margin: auto;
+  border: #F0F0F0;
+  border-width: 5px;
 }
 
 .github:hover {
-  width: 110px;
+  width: 75px;
   height: auto;
-  padding: 25px;
   cursor: pointer;
   margin: auto;
+  border-radius: 100%;
+  border-style: double;
+
 }
 
 @media screen and (max-width:320px) {
   .github {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
@@ -175,7 +178,7 @@
 
 @media screen and (max-width:425px) {
   .github {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
@@ -183,31 +186,33 @@
 
 @media screen and (max-width:768px) {
   .github {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
 }
 
 .linkedin {
-  width: 100px;
+  width: 75px;
   height: auto;
-  padding: 25px;
   cursor: pointer;
   margin: auto;
+  border: #F0F0F0;
+  border-width: 5px;
 }
 
 .linkedin:hover {
-  width: 110px;
+  width: 75px;
   height: auto;
-  padding: 25px;
   cursor: pointer;
   margin: auto;
+  border-radius: 10%;
+  border-style: double;
 }
 
 @media screen and (max-width:320px) {
   .linkedin {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
@@ -215,7 +220,7 @@
 
 @media screen and (max-width:425px) {
   .linkedin {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
@@ -223,7 +228,7 @@
 
 @media screen and (max-width:768px) {
   .linkedin {
-    width: 90px;
+    width: 60px;
     height: auto;
     cursor: pointer;
   }
