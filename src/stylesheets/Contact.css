@@ -71,7 +71,7 @@
 }
 
 .button-send {
-    background-color:#534334;
+    background-color:black;
     padding: 5px 20px 5px 20px;
     height: auto;
     color: white;
@@ -83,12 +83,12 @@
 }
 
 .button-send:hover {
-    background-color: #66543E;
+    background-color: grey;
 }
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #534334;
+        background-color: black;
         padding: 1px 20px 1px 20px;
         color: white;
         width: 50%;
@@ -102,7 +102,7 @@
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #534334;
+        background-color: black;
         padding: 1px 20px 1px 20px;
         color: white;
         width: 50%;
