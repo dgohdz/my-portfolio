@@ -1,6 +1,5 @@
 .home-container {
   display: flex;
-  /* border:dotted; */
   flex-direction: column;
   justify-content: center;
   max-width: 950px;
