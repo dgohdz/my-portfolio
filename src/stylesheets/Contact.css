@@ -25,7 +25,6 @@
 
 .headline {
     align-self: center;
-    color: #F0F0F0;
 }
 
 .paragraph {
@@ -70,27 +69,37 @@
     }
 }
 
-.button-send {
-    background-color:#534334;
+/* .button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-top: auto;
+} */
+
+/* .button-send {
     padding: 5px 20px 5px 20px;
     height: auto;
-    color: white;
     width: 20%;
     align-self: center;
     margin-top: 50px;
     border-radius: 5px;
     font-weight: 900;
-}
+} */
 
-.button-send:hover {
-    background-color: #66543E;
+/* @media screen and (max-width:425px) {
+    .button-send {
+        padding: 1px 20px 1px 20px;
+        width: 50%;
+        align-self: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-weight: 900;
+    }
 }
 
 @media screen and (max-width:425px) {
     .button-send {
-        background-color: #534334;
         padding: 1px 20px 1px 20px;
-        color: white;
         width: 50%;
         align-self: center;
         margin-top: 20px;
@@ -98,21 +107,7 @@
         font-weight: 900;
 
     }
-}
-
-@media screen and (max-width:425px) {
-    .button-send {
-        background-color: #534334;
-        padding: 1px 20px 1px 20px;
-        color: white;
-        width: 50%;
-        align-self: center;
-        margin-top: 20px;
-        border-radius: 5px;
-        font-weight: 900;
-
-    }
-}
+} */
 
 
 

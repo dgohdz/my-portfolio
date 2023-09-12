@@ -47,7 +47,8 @@
 
 .name-title {
   font-size: 20px;
-  color:#F0F0F0;
+  color: #2D4356;
+  font-weight: bold;
 }
 
 @media screen and (max-width:320px) {
