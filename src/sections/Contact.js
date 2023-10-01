@@ -31,7 +31,9 @@ export default function Contact () {
       <input type="email" name="email" className="email-input"/>
       <label>Message</label>
       <textarea name="message" className="message-input"/>
-      <button type="submit" value="Send" className="button-send">Send</button>
+      <div className="button-container">
+      <button type="submit" value="Send" className="button">Send</button>
+      </div>
     </div>
     </form>
     </div>

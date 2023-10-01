@@ -12,8 +12,8 @@ export default class Home extends Component {
                 <section>
                     <div className='home-container'>
                         <h1 className='name-title'>Diego Hernandez</h1>
-                        <p className='job-title'>Full-Stack Developer</p>
-                        <h1 className='greeting-heading'>Hello! I'm a Full-Stack Developer looking forward to working with you.</h1>
+                        <p className='job-title'>Professional Debugger</p>
+                        <h1 className='greeting-heading'>Hello! I'm a Developer Support Analyst ready to debug your code!</h1>
                     </div>
                     <div className = 'social-button-container'>
                     <ul>

@@ -70,50 +70,12 @@
     }
 }
 
-.button-send {
-    background-color:black;
-    padding: 5px 20px 5px 20px;
-    height: auto;
-    color: white;
-    width: 20%;
-    align-self: center;
-    margin-top: 50px;
-    border-radius: 5px;
-    font-weight: 900;
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
 }
-
-.button-send:hover {
-    background-color: grey;
-}
-
-@media screen and (max-width:425px) {
-    .button-send {
-        background-color: black;
-        padding: 1px 20px 1px 20px;
-        color: white;
-        width: 50%;
-        align-self: center;
-        margin-top: 20px;
-        border-radius: 5px;
-        font-weight: 900;
-
-    }
-}
-
-@media screen and (max-width:425px) {
-    .button-send {
-        background-color: black;
-        padding: 1px 20px 1px 20px;
-        color: white;
-        width: 50%;
-        align-self: center;
-        margin-top: 20px;
-        border-radius: 5px;
-        font-weight: 900;
-
-    }
-}
-
 
 
 
