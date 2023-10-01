@@ -6,13 +6,15 @@
 
 .button {
     border-radius: 5px;
-    background-color: gray;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #23262b;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
     font-weight: 900;
+    font-size: larger;
   }
 
   .button:hover {
-    background-color:black;
+    background-color:#23262b;
+    color: whitesmoke;
 }
